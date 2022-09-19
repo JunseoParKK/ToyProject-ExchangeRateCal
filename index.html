@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExchangeRateCal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="title">Exchange Rate Cal.</div>
+        <div class="change_box">
+            <div class="dropdown">
+                <button class="dropbtn" id="from_button">KRW</button>
+                <div class="dropdown-content" id="from_currency_list">
+                  <a href="#">KRW</a>
+                  <a href="#">USD</a>
+                  <a href="#">JPY</a>
+                  <a href="#">CNY</a>
+                </div>
+            </div>
+            <div class="input_box">
+                <input type="number" class="from_input" id="from_input2" placeholder="   Enter the amount"/>
+                <div class="from_text" id="from_text">KRW</div>
+            </div>
+        </div>
+        <div class="equal">=</div>
+        <div class="change_box">
+            <div class="dropdown">
+                <button class="dropbtn" id="to_button">KRW</button>
+                <div class="dropdown-content" id="to_currency_list">
+                    <a href="#">KRW</a>
+                    <a href="#">USD</a>
+                    <a href="#">JPY</a>
+                    <a href="#">CNY</a>
+                </div>
+            </div>
+            <div class="input_box">
+                <input type="number" class="to_input" id="to_input2" placeholder="   Enter the amount"/>
+                <div class="to_text" id="to_text">KRW</div>
+            </div>
+        </div>
+        <div class="bottom">
+            <button class="clear" id="clear_button">clear</button>
+        </div>
+    </div>
+    <script src="work.js"></script>
+</body>
+</html>
